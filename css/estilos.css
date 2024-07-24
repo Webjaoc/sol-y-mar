@@ -1,0 +1,491 @@
+
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+/***************Header*******************/
+header{
+    box-sizing: border-box;
+    background-image: url(../images/surf.jpg);
+    color: white;
+    padding: 20px;
+    position: relative;
+    height: 140px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    display: flex;
+    
+}
+
+.titulo{
+    margin-left: 25px;
+}
+.titulo h1{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-decoration: underline;
+}
+.titulo p{
+    width: 200px;
+    font-size: 1.2em;
+}
+
+/***************Barra de navegación***********/
+.navigationbar{
+    background-color: rgb(14, 13, 13);
+    position: absolute;
+    position: sticky;
+    top: 0px;
+    margin: 0 ;
+    width: 100%;
+    height: 20px;
+    display: flex;
+    z-index: 1000;
+    
+    
+}
+.navigationbarlist{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-items: center;
+    font-size: 1.2em;
+    margin-top: 0px;
+    padding-left: 25px;
+    text-align: center;
+    gap: 5px;
+    display: flex;
+}
+
+.enlace{
+    color:rgb(248, 248, 250);
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+}
+.enlace:hover{
+    color: rgb(13, 21, 37);
+    background-color: rgb(186, 240, 222);
+    transition: 0.5s;
+}
+.active{
+    color: rgb(39, 236, 13);
+}
+/************Contenido de inicio*********************/
+
+.cont1inicio{
+    width: 70vw;
+    border: 2px solid rgb(88, 162, 190);
+    margin-left: 20px;
+    margin-top: 35px;
+    border-radius: 70px;
+    background: rgba(0,0,0,0.3);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+   
+}
+.cont1inicio h2{
+    text-align: center;
+    padding: 20px;
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    
+    
+    
+    
+}
+.cont1inicio p{
+    font-size: 20px;
+    padding: 30px;
+    line-height: 50px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.cont2inicio{
+    width: 70vw;
+    border: 2px solid rgb(78, 77, 17);
+    border-radius: 70px;
+    margin-top: 35px;
+    margin-left: 28%;
+    background: rgba(0,0,0,0.3);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;   
+}
+.cont2inicio h2{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    color: antiquewhite;
+    text-align: center;
+}
+.cont2inicio p{
+    font-size: 20px;
+    padding: 30px;
+    line-height: 50px;
+    color: white;
+    text-align: center;
+}
+.cont3inicio{
+    width: 70vw;
+    border: 2px solid rgb(75, 18, 18);
+    margin-left: 20px;
+    margin-top: 35px;
+    border-radius: 70px;
+    background: rgba(0,0,0,0.3);
+    display: flex;
+    flex-direction: column;
+
+}
+.cont3inicio h2{
+    text-align: center;
+    padding-top: 20px;
+    color: antiquewhite;
+}
+.cont3inicio p{
+    font-size: 20px;
+    padding: 30px;
+    line-height: 50px;
+    color: antiquewhite;
+    text-align: center;
+    
+}
+body{
+    background-image: url(../images/fondo1.jpg);
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+}
+.opacidad{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+
+}
+
+/*********************Footer inicio**********/
+.pie #pie{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    
+}
+.pie #pie{
+    width: 100%;
+    background-color: rgb(22, 22, 22);
+    margin-top: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+.pie #pie .copy{
+    width: 33%;
+    color: white;
+    text-align: center;
+    padding: 5px auto;
+}
+#pie .copy p{
+    font-size: 16px;
+    margin-top:50px ;
+}
+#pie .direccion{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    
+    
+}
+#pie .direccion p{
+    width: 100%;
+    color:white;
+    line-height: 20px;
+    padding-top: 5px;
+    margin-top: 5px;
+    text-align: center;
+}
+#pie .redes{
+    width: 33%;
+    
+}
+.redes ul{
+    list-style: none;
+}
+.redes ul li a{
+    font-size: 20px;
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 35px;
+    margin-top: 5px;
+    
+
+}
+
+
+ 
+/********************Formulario****************/
+.container{
+    width: 60%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 5% 0;
+    background: rgba(0,0,0,0.3);
+    
+}
+.container *{
+    box-sizing: border-box;
+    
+}
+.flex-outer, .flex-inner{
+    list-style-type: none;
+    padding: 0 20px;
+}
+.flex-outer{
+    max-width: 11200px;
+    padding: 0 auto;
+}
+.flex-outer li{
+    color: antiquewhite;
+}
+.flex-outer li , .flex-inner{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.flex-inner{
+    padding: 0 8px;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    
+}
+.flex-outer > li:not(last-child){
+    margin-bottom: 25px;
+}
+.flex-outer li label, .flex-outer li p{
+    padding: 8px;
+    font-weight: 300;
+    letter-spacing: .09em;
+    text-transform: uppercase;
+}
+.flex-outer > li > label, .flex-outer li p{
+    flex: 1 0 120px;
+   
+}   
+.flex-outer >li >label + *, .flex-inner{
+    flex: 1 0 320px;
+}
+.flex-outer li p{
+    margin: 0;
+}
+.flex-outer li input:not([type='radio']), .flex-outer li textarea{
+    padding: 15px;
+    border: none;
+}
+.flex-outer .politica input{
+    margin-left:calc(39%);
+    
+}
+/*****************Botones del formulario Presupuesto********/
+ .libuttons button{
+    margin: auto;
+    padding: 8px 16px;
+    border: none;
+    background-color: rgb(44, 44, 44);
+    color: blanchedalmond;
+    text-transform: uppercase;
+    letter-spacing: 0.09em;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.libuttons button:hover{
+    background-color: rgb(16, 146, 233);
+    color: rgb(241, 236, 236);
+    transition: 0.5s;
+    
+}
+.libuttons{
+    display: flex;
+    flex: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+/************************Mapa Contacto******************/
+.mapa{
+    width: 100%;
+    height: 600px;
+    margin-top: 50px;
+}
+.mapa .mapaimg p{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.mapa .mapaimg{
+    width: 50%;
+    height: 80%;
+    margin: 0 auto;
+
+}
+.mapa .mapaimg img{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+/******************Galeria de Productos********************/
+main{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    gap: 10px;
+    justify-content: center;
+
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+/********************Galeria y presupuesto*****************/
+@media  (max-width: 600px){
+    .container{
+        background: none;
+    }
+   }
+
+    
+
+/********************galeria ************/
+@media screen and (max-width: 900px){
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    main img{
+        width: 60%;
+       height:auto ;
+        margin-left: 15%;
+    }
+}
+/********************Footer******************************/
+
+@media  screen and (max-width:599px) {
+    .pie #pie {
+        display: flex;
+        flex-direction: column-reverse;
+        align-content: center;
+    }
+    .copy{
+        padding-bottom: 25px;
+    }
+}
+/******************Barra de nav********************/
+@media  screen and (max-width:599px){
+    .navigationbar{
+        background-color: rgb(14, 13, 13);
+        top: 0px;
+        margin: 0 ;
+        width: 100%;
+        height: 20px;
+        display: flex;
+        position: relative;
+        justify-content:center;
+        
+    } 
+}
+ 
+@media  screen and (max-width:599px){
+    .mapa .mapaimg{
+        
+        width: 100%;    
+    }
+    .mapa .mapaimg img{
+        
+        width: 100%;
+        height: 80%;    
+    } 
+}
+
+@media  screen and (max-width:599px){
+    .container{
+        
+        width: 100%;
+
+    } 
+}
+
+@media  screen and (max-width:599px){
+    .cont1inicio{
+        width: 100%;
+        margin-left: 0px;
+        border-radius: 0;    
+    }
+    .cont2inicio{
+        width: 100%;
+        margin-left: 0px;
+        border-radius: 0;    
+    }
+    .cont3inicio{
+        width: 100%;
+        margin-left: 0px;
+        border-radius: 0;    
+    } 
+    main{
+        text-align: center;
+      
+    }
+    main img{
+        margin: auto;
+      
+    }
+}
+
+    
+    
+   
+
+
+    
+
+    
+
+    
+
+
+
+
+

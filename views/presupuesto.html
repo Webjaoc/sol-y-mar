@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sol & Mar</title>
+    <link rel="stylesheet" href="../css/estilos.css" type="text/css">
+    <link rel="icon" href="../favicon.png/form.png" type="image/png">
+</head>
+<body>
+<!----------------- Header-------------->
+    <header>
+        <div class="titulo">
+            <h1>Sol & Mar</h1>
+            <p>Holidays travels</p>
+        </div>
+    </header>
+<!------------------Barra de Nav-------------------->       
+    <nav class="navigationbar">
+        <ul class="navigationbarlist">
+            <li>
+                <a class="enlace" href="../index.html">Inicio</a>
+             </li>
+            <li>
+                <a class="enlace" href="productos.html">Galeria</a>
+            </li>
+            <li>
+                <a class="enlace" href="contacto.html">Contacto</a>
+            </li>
+            <li>
+                <a class="enlace active" href="#">Presupuesto</a>  
+            </li>
+        </ul>
+    </nav>
+<!-----------------------------Formulario-------------------------->
+     <div class="container">
+        <form id="myform" name="myform" action="#" method="get" target="_self">
+            <ul class="flex-outer">
+                <li>
+                    <label for="first-name" >Nombre</label>
+                    <input type="text" id="first-name" name="first-name"
+                        placeholder="Escriba su nombre" pattern="[a-zA-Z]{3,15}"
+                        title="Escriba solo letras entre 4 y 15 caracteres" required>
+                </li>
+                    
+                <li>
+                    <label for="surname" >Apellido</label>
+                    <input type="text" id="surname" name="surname"
+                        placeholder="Escriba su apellido" pattern="[a-zA-Z]{3,40}"
+                        title="Escriba solo letras entre 3 y 40 caracteres" required>
+                </li>
+
+                <li>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email"
+                        placeholder="Escriba su correo electonico"
+                        pattern="[a-z0-9_-.]+@[a-z0-9_-.]+.[a-z0-9_-.]"
+                        title="El email debe contener @" required>
+    
+                </li>
+
+                <li>
+                    <label for="telephon">Telefono</label>
+                    <input type="tel" id="telephon" name="telephon"
+                        placeholder="Escriba su numero de telefono"
+                        pattern="[0-9]{9,14}" required>
+                </li>
+
+                <li>
+                    <label for="massage">Solicite más informacion</label>
+                    <textarea rows="6" id="massage" name="massage"
+                        placeholder="Escriba su mensaje.">
+                    </textarea>
+                </li>
+
+                <li  class="politica">
+                    <input type="checkbox" id="politica" name="politica" required>
+                    <label for="politica">Acepto la "Politica de privacidad"</label>
+                </li>
+                    
+                <li class="libuttons">
+                    <button  type="reset" >Borrar</button>
+                    <button  type="submit">Enviar</button>
+                </li>
+                        
+            </ul>
+        </form>        
+    </div>
+<!---------------------------------Footer---------------------->
+    <footer class="pie">
+        <div id="pie">
+
+            <div class="copy">
+                <p> &copy; Sol & Mar-2022. Todos los derechos reservados</p>
+            </div>
+
+            <div class="direccion">
+                <p>Av. del Mediterráneo, 20</p>
+                <p>03188, La Mata </p>
+                <p>Alicante, España</p>
+                <p>Tel. 924 252 627</p>
+            </div>
+        
+            <div class="redes">
+                <ul>
+                    <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+                    <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+                    <li><a href="https://www.twitter.com" target="_blank">twitter</a></li>
+                </ul>   
+            </div>
+
+        </div>
+    </footer>
+    
+    
+</body>
+</html>
